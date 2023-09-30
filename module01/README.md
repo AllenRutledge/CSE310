@@ -4,7 +4,7 @@ In this application, you will play a game of hangman. There's a selection of sev
 
 I created this application for fun, and for the sake of improving my understanding of the Java coding language.
 
-[Java Hangman Tutorial]()
+[Java Hangman Tutorial](https://youtu.be/VALCXLUzjBk)
 
 # Development Environment
 
