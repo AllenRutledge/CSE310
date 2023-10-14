@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Music Player</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div class="player">
+			<!-- Song details -->
+			<div class="details">
+				<div class="song-spot">Song X of Y</div>
+				<div class="song-name">Song Name</div>
+				<div class="song-artist">Song Artist</div>
+			</div>
+			<!-- Buttons -->
+			<div class="buttons">
+				<div class="prev-song" onclick="prevSong()">
+				<p class="back"><--</p>
+			</div>
+			<div class="playpause-song" onclick="playPause()">
+				<p class="play">[></p>
+			</div>
+				<div class="next-song" onclick="nextSong()">
+				<p class="forward">--></p>
+			</div>
+		</div>
+		<!-- Seek slider-->
+		<div class="slider_container">
+			<div class="time-now">00:00</div>
+				<input type="range" min="1" max="100"
+					value="0" class="seek-slider" onchange="seekTo()">
+				<div class="total-duration">00:00</div>
+			</div>
+			<!-- Volume slider-->
+			<div class="slider_container">
+					<p class="vol-down">Vol -</p>
+					<input type="range" min="1" max="100"
+						value="99" class="volume-slider" onchange="setVolume()">
+					<p class="vol-up"> Vol +</p>
+			</div>
+		</div>
+		<!-- Load script -->
+		<script src="player.js"></script>
+	</body>
+</html>
