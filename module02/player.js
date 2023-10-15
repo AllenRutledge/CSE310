@@ -21,21 +21,21 @@ let updateTimer;
 let songNow = document.createElement('audio');
 // List of songs
 let songs = [
-{   name: "Her And I (Slow Jam 2)",
-	artist: "King Gizzard and the Lizard Wizard",
-    path: "Her_and_I.mp3"},
+{   name: "Party Sector",
+	artist: "Joth",
+    path: "Party_Sector.ogg"},
 
-{   name: "Voyager",
-    artist: "Jasper Bryne",
-	path: "Voyager.mp3",},
+{   name: "Red Doors (v2)",
+    artist: "Matthew Pablo",
+	path: "red_doors2.ogg",},
 
-{	name: "Simma Hem",
-    artist: "Riddarna",
-	path: "Simma_Hem.mp3",},
+{	name: "Low-Fi",
+    artist: "Alexandr Zhelanov",
+	path: "low-fi.ogg",},
 
-{	name: "Crystals",
-    artist: "M|O|O|N",
-	path: "Crystals.mp3",}
+{	name: "Space Dimensions",
+    artist: "Matthew Pablo",
+	path: "space_dimensions.ogg",}
 ];
 function loadSong(index) {
     // Clear previous timer
