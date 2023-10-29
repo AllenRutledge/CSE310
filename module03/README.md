@@ -4,7 +4,7 @@ This application starts you off in a text adventure game. The player will have t
 
 I created this application to challenge myself and expand on something I did before and refine it now that I know more about coding.
 
-[Python Text Adventure Tutorial]()
+[Python Text Adventure Tutorial](https://youtu.be/d2C47Go87N8)
 
 # Development Environment
 
