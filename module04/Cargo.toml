@@ -1,0 +1,21 @@
+[package]
+name = "dungeon_crawler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amethyst = "0.16.0"
+amethyst_renderer = "0.16.0"
+amethyst_config = "0.16.0"
+amethyst_controls = "0.16.0"
+amethyst_input = "0.16.0"
+amethyst_utils = "0.16.0"
+amethyst_core = "0.16.0"
+amethyst_assets = "0.16.0"
+amethyst_ecs = "0.16.0"
+amethyst_audio = "0.16.0"
+amethyst_animation = "0.16.0"
+amethyst_tiles = "0.16.0"
+amethyst_ui = "0.16.0"
