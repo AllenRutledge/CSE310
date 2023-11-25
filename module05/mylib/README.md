@@ -5,8 +5,6 @@ This is what was supposed to happen, but I underestimated how confusing and pain
 
 I created this application to improve my understanding of Erlang, as well as help others with their understanding of Erlang.
 
-[Rust Dungeon Crawler Tutorial]()
-
 # Development Environment
 
 The programs used were ==Visual Studio Code by Microsoft== and ==Rebar3 by Erlang==.
